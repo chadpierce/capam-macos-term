@@ -28,7 +28,7 @@ on run argv
 	#ssh_host
 	#ssh_user
 	tell application "Terminal"
-		do script "/Users/chad/z.sh " & ssh_host & " " & ssh_port
+		do script "/Users/chad/ssh_launcher.sh " & ssh_host & " " & ssh_port
 		#use the line below for bundle
 		#do script "./z.sh " & ssh_host & " " & ssh_port
 	end tell
